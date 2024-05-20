@@ -87,7 +87,7 @@ other filesystems.
 If you don't already know that you have a special use case then just
 start with one of the following option sets.
 
-#### You need `mmap` (used by rtorrent and many sqlite3 base software)
+#### You need `mmap` (used by rtorrent, qBittorrent and many sqlite3 base software)
 
 `cache.files=partial,dropcacheonclose=true,category.create=mfs`
 
